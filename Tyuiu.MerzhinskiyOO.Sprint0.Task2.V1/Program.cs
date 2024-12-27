@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Tyuiu.MerzhinskiyOO.Sprint0.Task2.V1.Lib; 
+
 namespace Tyuiu.MerzhinskiyOO.Sprint0.Task2.V1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();  
+            Console.WriteLine(DataService.GetMessage("Олег"));
+            Console.ReadKey(); 
         }
     }
 }
